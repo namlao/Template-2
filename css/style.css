@@ -1,0 +1,524 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+
+}
+a{
+    text-decoration: none !important;
+}
+body{
+    background: #f5e4ce;
+}
+/*::placeholder{
+    padding-left: 1rem !important;
+}*/
+input[type=text]{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*==========================================STYLE HEADER==========================================*/
+
+header{
+    font-family: 'Lobster Two', cursive;
+    background: #ffffff;
+
+}nav a.nav-link-custom
+header p.logo-link{
+
+    /*display: inline-block;*/
+    margin-bottom:0 ;
+}
+header .logo {
+    margin: 0.5rem;
+    width: 100%;
+}
+header .logo img{
+    width: 60%;
+}
+
+header nav{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    padding: 1rem !important;
+}
+nav a.nav-link-custom{
+    color: #9f3d6c !important;
+    font-size: 14px;
+}
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0{
+    width: 100%;
+}
+nav li.nav-item.list-item-custom {
+    background: #f3deea;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    width: 25%;
+}
+
+
+nav li.nav-item.list-item-custom:hover {
+    background: #9f3d6c;
+}
+
+nav a.nav-link-custom:hover{
+    color: #ffffff!important;
+}
+
+/*==============================================STYLE MAIN/BANNER==============================================*/
+
+main div.text-part-custom {
+    background: #f5e4ce;
+
+}
+main .banner-text {
+    color: #9f3d6c;
+    width: 35%;
+    margin: 20% 23%;
+}
+main h2.title-banner {
+    font-weight: bold;
+
+}
+main p.description-banner{
+    color: #000000;
+    font-size: 18px;
+}
+main div.img-part-custom{
+    background-image: url("../img/banner-1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main div.about{
+    background:#ffffff;
+    padding-bottom: 1.5rem;
+}
+
+
+/*====================================STYLE MAIN/ABOUT====================================*/
+
+.about img.img-left-about {
+    width: 100%;
+}
+.text-arial{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.5rem 0;
+
+}
+.about .content-right-part{
+    margin-top: 2.5em;
+}
+
+.about .item-about img{
+    width: 100%;
+}
+.about .item-about p{
+    padding: 0.5em 0;
+    width: 100%;
+    text-align: center;
+}
+.about h2.title-about {
+    margin-bottom: 2rem;
+}
+.about .left-part-about{
+    background-image: url("../img/kimberly-mears.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about .banner-img {
+    position: relative;
+}
+.about img.png-banner {
+    position: absolute;
+    width: 50%;
+    right: -284px;
+    bottom: -1px;
+}
+/*=====================================STYLE MAIN/service=====================================*/
+.services{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.services .services-inner {
+    margin-bottom: 1.5rem;
+}
+.services p{
+    font-size: 22px;
+    width: 80%;
+    margin-bottom: 0;
+}
+.services a.btn-custom {
+    width: 100%;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 25px;
+    color: #000;
+    background: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+.services a.btn-custom:focus{
+    color: #ffffff;
+    background: #9f3d6c;
+}
+.services-btn{
+    margin-bottom: 2rem;
+}
+.services-btn a.btn-custom:hover{
+    color: #ffffff;
+    background: #9f3d6c;
+}
+.services>.any-more>a {
+    color: #000;
+}
+.any-more{
+    text-align: center;
+}
+/*==========================================STYLE main/product==========================================*/
+.product{
+    background: #ffffff;
+}
+.product .product-title {
+    padding: 2.5rem 0;
+}
+.product-title p{
+    font-size: 22px;
+    width: 65%;
+    margin-bottom: 0;
+}
+.product .card-custom {
+    border: none !important;
+}
+.product .card-img-custom{
+    width: 100%;
+}
+
+.product h5.card-title.card-title-custom {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+}
+.product p.card-text-custom{
+    text-align: center;
+    font-size: 15px;
+}
+.product a.btn-card-custom{
+    border: none;
+    border-radius: 45px;
+    background: #d7d7d7;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0 25%;
+
+}
+.product a.btn-card-custom:hover{
+    background: #9f3d6c;
+    color: #ffffff;
+}
+/*=============================================STYLE MAIN/BLOGS=============================================*/
+.blogs{
+    margin: 2.5rem 0;
+}
+.blogs .text-blogs{
+    margin: 2.5rem 0;
+    width: 65%;
+
+}
+.blogs .text-blogs p{
+    margin: 0;
+    font-size: 22px;
+}
+
+.carousel-custom img.card-img-top{
+    width: 100%;
+    height: auto;
+}
+.carousel-custom .card-custom {
+    width: 90%;
+}
+.card-custom h4.card-title{
+    font-size: 16px;
+}
+
+.slick-dots li button {
+    background-image:url("../img/dots.png");
+    background-repeat: no-repeat;
+}
+.slick-dots li.slick-active button{
+    background-image: url("../img/dotssss.png")!important;
+    background-repeat: no-repeat;
+    width: 222%;
+}
+button.slick-prev.slick-arrow,
+button.slick-next.slick-arrow{
+    display: none !important;
+}
+
+.card-body-custom{
+    width: 100%;
+    display: flex;
+}
+.card-body-custom .card-content{
+    width: 70%;
+}
+.card-body-custom .time-day{
+    width: 30%;
+}
+.time-day p.card-text {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+.time-day .social{
+    width: 100%;
+}
+.time-day .social i{
+    margin-right: 0.5rem;
+}
+.social i.fb-ico {
+    color: #003471;
+}
+.social i.tw-ico {
+    color: #00bff3;
+}
+.social i.pin-ico {
+    color: #ff0707;
+}
+.social i.ln-ico {
+    color: #0076a3;
+}
+/*============================================STyle main/testimonials============================================*/
+.testimonials .inner-testimonials{
+    text-align: center;
+    background: #fff;
+}
+.testimonials .img-testimonials img {
+    width: 100% ;
+}
+.content-testimonials p.name-testimonials {
+    color: #9f3d6c;
+    font-weight: bold;
+    font-size: 16px;
+}
+.inner-testimonials .title-testimonials {
+    /*padding: 2% 15%;*/
+    width: 100%;
+    margin: 0 auto;
+}
+.form-testimonials {
+    margin: 0.5rem 0;
+    padding: 3.5rem 0;
+    background: #9f3d6c;
+    color: white;
+}
+.email-text-form{
+    width: 100%;
+}
+.form-email{
+    width: 60%;
+    margin: 0 auto;
+}
+.form-email>form{
+    width: 100%;
+    display: flex;
+}
+.form-email form input.form-control{
+    /*border: none;*/
+    width: 70%;
+    border-radius: 0;
+    /* font-size: 13px; */
+    height: 60px;
+    text-transform: uppercase;
+}
+.form-email form .btn-custom{
+    background: black;
+    color: white;
+    width: 30%;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+.form-email form input[type=text]{
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+/*.email-text{
+    width: 100%;
+
+}
+.email-text input[type=text]{
+    width: 70%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.email-text button {
+    background: #000000;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0;
+    !* padding: 20px; *!
+    font-weight: bold;
+    width: 30%;
+    font-size: 11px;
+    letter-spacing: 5px;
+}
+.email-text button:hover{
+    background: #000000;
+    color: white;
+}
+.email-text-form{
+    width: 100%;
+}
+.email-form{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}*/
+/*==================================================style contact==================================================*/
+form.form.custom {
+    flex-direction: column;
+}
+div.contact-custom{
+    margin: 1.5rem;
+    text-align: center;
+    padding: 3.5rem;
+
+}
+
+div.contact-custom .title-contact{
+    padding: 0% 12%;
+    width: 100%;
+    /*font-size: 2rem;*/
+    margin-bottom: 1rem;
+
+}
+.inner-form{
+    display: flex;
+    width: 100%;
+}
+.contact-form{
+    display: flex;
+    width: 100%;
+}email-text
+.contact-form input.text-contact-custom[type = text]{
+    font-size: 11px;
+}
+.contact-form input.text-contact-custom{
+    width: calc(100%/3);
+    margin-right:1.5rem ;
+
+}
+
+.contact-form select.select-contact-custom{
+    width: 30%;
+    font-size: 11px;
+    height: 36px    ;
+}
+.contact-form textarea.textarea-custom{
+    width: 100%;
+    margin: 1rem 0;
+    font-size: 11px;
+}
+.contact-form button.btn-contact-custom{
+    width: 100%;
+    background:#9f3d6c;
+    color: #ffffff;
+}
+/*==================================================style main/intagram==================================================*/
+
+
+.intagram-custom-col{
+    width: calc(100%/6);
+    padding:0;
+}
+.intagram .intagram-item{
+    width: 100%;
+    position: relative;
+
+}
+div.intagram-ico{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0%;
+    text-align: center;
+    opacity: 0;
+}
+div.intagram-ico:hover{
+    color: white;
+    background: #000;
+    opacity: 0.5;
+}
+.intagram-ico .fa-custom{
+    margin-top: 6vw;
+    font-size: 2.5vw;
+}
+/*=======================================================style footer=======================================================*/
+footer{
+    background:#363636;
+    color: #fff;
+    font-family: 'Comfortaa Regualar', sans-serif;
+
+}
+footer .logo-footer{
+    width: 100%;
+}
+footer .logo-footer img{
+    width: 100%;
+}
+footer .inner-footer{
+    padding: 2.5rem 0;
+}
+
+footer .info-footer{
+    text-align: center;
+    font-size: 15px;
+}
+footer .info-footer p{
+    margin: 0;
+}
+.info-footer p.address,
+.info-footer p.email,
+.info-footer p.phone {
+    font-size: 15px;
+}
+
+footer .social-network {
+    width: 100%;
+    border-radius: 40px;
+    background: white;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+footer .social-network i{
+    padding: 0.9rem;
+    font-size: 16px;
+}
+.social-network .fb-ico{
+    color: #003471;
+}
+.social-network .tw-ico{
+    color: #00bff3;
+}
+.social-network .ytb-ico{
+    color: #e60337;
+}
+.social-network .pin-ico{
+    color: #ff0707;
+}
+.social-network .gpl-ico{
+    color: #ff0707;
+}

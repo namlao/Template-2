@@ -1,0 +1,543 @@
+/*!*desktops - higher resolution*!
+@media (min-width: 1281px){
+
+}*/
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px){
+    footer .social-network i {
+        padding: 0.8rem;
+
+    }
+    footer .social-network {
+        width: 100%;
+    }
+    .time-day p.card-text {
+        font-size: 1vw;
+    }
+    .time-day .social i {
+        margin-right: 0.3rem;
+    }
+    .any-more {
+        font-size: 1.3vw;
+    }
+    div.contact-custom .title-contact{
+
+        font-size: 1.5rem;
+    }
+    .inner-testimonials .title-testimonials h2{
+        font-size: 1.5rem;
+    }
+    .contact-form input.text-contact-custom{
+        width: 19vw;
+    }
+
+}
+/*responsive banner-img*/
+    @media (min-width: 1200px) and (max-width: 1280px){
+        .about .banner-img {
+            width: 90%;
+            top: -209px;
+            right: -512px;
+        }
+    }
+    @media (min-width: 1025px) and (max-width: 1201px){
+        .about .banner-img {
+            width: 90%;
+            top: -176px;
+            right: -431px;
+        }
+    }
+
+
+
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px){
+    nav a.nav-link-custom{
+        font-size: 9px;
+    }
+
+    footer .social-network i{
+        padding: 0.6rem;
+    }
+    .contact-form input.text-contact-custom {
+        width: 19vw;
+    }
+    div.contact-custom .title-contact{
+        font-size: 1.4rem;
+    }
+    .services .any-more{
+        font-size: 1.3vw;
+    }
+    main h2.title-banner{
+        font-size: 1.5rem;
+    }
+
+}
+/*responsive banner-img*/
+    @media (min-width: 992px) and (max-width: 1024px){
+        .time-day .social i{
+            margin-right: 0.3rem;
+        }
+        .about .banner-img {
+
+            width: 60%;
+            top: -197px;
+            right: -288px;
+        }
+        .about img.png-banner {
+            width: 100%;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 990px){
+        .time-day .social i{
+            margin-right: 0.3rem;
+        }
+        .about .banner-img {
+            top: -147px;
+            right: -216px;
+            width: 60%;
+        }
+        .about img.png-banner {
+            width: 100%;
+        }
+        footer .social-network{
+            width: 100%;
+            padding: 0;
+        }
+        footer img{
+            width: 100%;;
+        }
+        .navbar-expand-sm .navbar-nav .nav-link{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .card-body-custom{
+            display: block;
+        }
+        .card-body-custom .card-content,
+        .card-body-custom .time-day{
+            width: 100%;
+        }
+    }
+
+/*tablets, ipads (landscape)*/
+/*@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+    .about .banner-img{
+        display: none   ;
+    }
+
+}*/
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px){
+    .time-day p.card-text{
+        font-size: 1.5vw;
+    }
+    .card-custom h4.card-title{
+        font-size: 1.5vw;
+    }
+    li.nav-item.list-item-custom {
+        margin-bottom: 0.5rem;
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+
+    a.nav-link.nav-link-custom {
+        font-size: 14px;
+    }
+    .card-body-custom{
+        display: block;
+    }
+    .card-body-custom .card-content,
+    .card-body-custom .time-day{
+        width: 100%;
+    }
+    .about .banner-img{
+        display: none   ;
+    }
+    main .banner-text {
+        width: 90%;
+        margin: 20% 10%;
+    }
+    header .logo-img{
+        width: 10%;
+    }
+    .col-md-5.img-part-custom {
+        display: none;
+    }
+    .text-arial{
+        font-size: 2.5vw;
+    }
+    .about h2.title-about{
+        font-size: 3.5vw;
+    }
+    .about .item-about p {
+        padding: 0.5em 21%;
+        width: 100%;
+        font-size: 1.2vw;
+    }
+    .services>.any-more>a{
+        font-size: 1.3vw;
+    }
+    .card-body{
+        padding: 1.25rem 1rem;
+    }
+    .product a.btn-card-custom{
+        margin: 0;
+    }
+    .inner-testimonials .title-testimonials{
+        padding: 2% 10%;
+    }
+    .inner-testimonials .title-testimonials{
+        padding: 2% 5%;
+    }
+    div.contact-custom{
+        padding: 1.5rem 0;
+        margin: 0;
+    }
+    div.contact-custom .title-contact{
+        font-size: 1.5vw;
+        padding: 0% 5%;
+        font-weight: bold;
+    }
+    .form-group.contact-form{
+        flex-direction: column;
+    }
+    .contact-form input.text-contact-custom {
+        width: 100%;
+        margin-bottom: 1rem;
+
+    }
+    .contact-form select.select-contact-custom {
+        width: 100%;
+    }
+    footer img {
+        width: 100%;
+    }
+    footer .info-footer{
+        margin: 1rem 0;
+    }
+
+    footer .social-network{
+        width: 100%;
+        padding: 0.2rem 0%;
+    }
+    footer .social-network i{
+        padding: 0.9rem 0.3rem;
+        font-size: 0.9rem;
+    }
+    .content-center{
+        order: 1;
+    }
+    .arrow-left,
+    .arrow-right{
+        order: 2;
+    }
+
+
+
+}
+    @media (min-width: 481px) and (max-width: 575px){
+        li.nav-item.list-item-custom {
+            margin-bottom: 0.5rem;
+            margin-right: 0 !important;
+            width: 100% !important;
+        }
+
+        a.nav-link.nav-link-custom {
+            font-size: 1.5vw;
+        }
+        main .banner-text {
+            width: 90%;
+            margin: 20% 6%;
+        }
+        header .logo {
+            margin: 0.5rem 25vw;
+        }
+        .about h2.title-about {
+            font-size: 2.5vw;
+        }
+        .img-about {
+            display: flex;
+            flex-direction: column;
+        }
+        .img-about .item-about {
+            width: 25%;
+        }
+        .about .item-about p {
+            padding: 0.5em 14%;
+            width: 100%;
+            font-size: 1.2vw;
+        }
+        .row-custom{
+            justify-content: center;
+        }
+        .services p{
+            font-size: 2.5vw;
+        }
+        .services a.btn-custom{
+            font-size: 2vw;
+        }
+        .intagram-custom-col {
+            width: calc(100%/6);
+        }
+        .inner-product{
+            display: flex;
+            /*flex-direction: column;*/
+        }
+        .inner-product .product-custom{
+            width: calc(100%/4);
+        }
+        footer .social-network{
+            padding: 0.2rem 35%;
+        }
+        footer .logo-footer {
+            width: 100%;
+            margin: 0 25%;
+        }
+        footer .info-footer p.address,
+        footer .info-footer p.email,
+        footer .info-footer p.phone
+        {
+            font-size: 2vw;
+        }
+    }
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px){
+    li.nav-item.list-item-custom {
+        margin-bottom: 0.5rem;
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+
+    a.nav-link.nav-link-custom {
+        font-size: 1.5vw;
+    }
+    .about img.png-banner{
+        display: none;
+    }
+    footer .logo-footer {
+        width: 100%;
+    }
+    main .banner-text{
+        margin: 20% 1%;
+        width: 100%;
+    }
+    main h2.title-banner{
+        font-size: 1.5rem;
+    }
+    .about h2.title-about{
+        font-size: 1.5rem;
+    }
+    .text-arial{
+        padding: 0 1rem;
+        font-size: 2.5vw;
+    }
+    .item-abou{
+        width: 100%;
+    }
+    .about .item-about img{
+        width: 50%;
+        margin: 0 25vw;
+    }
+    .about .item-about p{
+        padding: 0.5em 25vw;
+    }
+    .services p{
+        font-size: 2.5vw;
+        width: 100%;
+        margin: 0 1rem;
+    }
+    .services a.btn-custom{
+        font-size: 2.5vw;
+    }
+    .services>.any-more>a{
+        margin: 0 33vw;
+    }
+    .product .product-title {
+        padding: 0.5rem 1rem;
+        font-size: 1vw;
+    }
+    .product-title p {
+        font-size: 2.5vw;
+        /* width: 65%; */
+        margin-bottom: 0;
+    }
+    .card.card-custom {
+        width: 60%;
+        margin: 0px 20%;
+    }
+    .product h5.card-title.card-title-custom{
+        font-size: 2.5vw;
+    }
+    .product p.card-text-custom{
+        font-size: 2.4vw;
+    }
+    .card.card-custom
+    .card-body-custom{
+        display: block;
+    }
+    .card-body-custom .card-content,.card-body-custom .time-day{
+        width: 100%;
+
+    }
+    .slider-custom .card.card-custom{
+        width: 90%;
+    }
+    .blogs .text-blogs p{
+        font-size: 2.5vw;
+    }
+    .inner-testimonials .title-testimonials h2{
+        font-size: 1.5rem;
+    }
+    h2.title-contact {
+        font-size: 3vw !important;
+        font-weight: bold;
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .form-group.contact-form{
+        display: block;
+    }
+    .contact-form input.text-contact-custom {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    select.custom-select.select-contact-custom {
+        width: 100%;
+    }
+    .col-md-2.col-sm-2.intagram-custom-col {
+        width: calc(100%/6);
+    }
+    .inner-testimonials .title-testimonials{
+        padding: 2% 0;
+        font-size: 5vw;
+    }
+    form.email-text {
+        width: 90% !important;
+        margin: 1px 5px;
+    }
+    .email-text input[type=text]{
+        width: 80%;
+    }
+    .email-text button{
+        width: 30%;
+    }
+    footer .inner-footer{
+        padding: 1.5rem 0;
+    }
+    footer .info-footer{
+        margin: 0.5rem 0;
+
+    }
+    footer .info-footer .address,
+    footer .info-footer .email,
+    footer .info-footer .phone{
+        font-size: 2vw;
+    }
+    footer .social-network{
+        width: 100%;
+        padding: 0 20%;
+    }
+    .content-testimonials p.name-testimonials{
+        font-size: 3.5vw;
+    }
+    .col-md-4.col-sm-4.contact-footer{
+        order: 2;
+    }
+}
+    @media(min-width: 475px) and (max-width: 480px){
+        .logo-footer img {
+                margin: 1rem 23%;
+        }
+    }
+    @media (min-width: 320px) and (max-width: 475px){
+        .email-text input[type=text],
+        .email-text button{
+            font-size: 2.5vw;
+        }
+
+
+
+    }
+@media (max-width: 320px){
+    footer .social-network{
+        padding: 0 8%;
+    }
+    .services>.any-more>a{
+        margin: 0 22vw;
+    }
+    .product .product-title{
+        font-size: 1vw;
+    }
+    .product-title p {
+        width: 100%;
+        font-size: 3vw;
+    }
+    .blogs .text-blogs{
+        width: 100%;
+    }
+    .blogs .text-blogs p{
+        font-size: 3vw;
+    }
+
+    .blogs{
+        display: none;
+    }
+    a.nav-link.nav-link-custom{
+        font-size: 3.5vw;
+    }
+    main h2.title-banner {
+        text-align: center;
+    }
+    .text-arial{
+        font-size: 3.5vw;
+    }
+    .about .item-about p{
+        font-size: 3vw;
+    }
+    .services p{
+        font-size: 3.5vw;
+    }
+    .product-title p{
+        font-size: 3.5vw;
+    }
+    .product a.btn-card-custom{
+        margin: 0 13%;
+    }
+    .product h5.card-title.card-title-custom{
+        font-size: 2.9vw;
+    }
+    .inner-testimonials .title-testimonials h2{
+        font-size: 1rem;
+    }
+    .content-center{
+        order: 1;
+    }
+    .arrow-left,
+    .arrow-right{
+        order: 2;
+    }
+    div.contact-custom{
+        padding:0;
+    }
+    div.contact-custom .title-contact{
+        font-size: 5vw !important;
+    }
+    .form-group.contact-form{
+        width: 100%;
+    }
+    .contact-form textarea.textarea-custom{
+        width: 100%;
+        margin: 5px 0;
+    }
+    footer .logo-footer{
+        margin-bottom:  5px;
+    }
+    footer .info-footer .address, footer .info-footer .email, footer .info-footer .phone{
+        font-size: 0.8rem;
+    }
+}
